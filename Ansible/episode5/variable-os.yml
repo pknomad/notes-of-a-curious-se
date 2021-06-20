@@ -34,3 +34,11 @@
       package:
         name: "{{ apache_package }}"
         state: present
+      register: foo
+    - debug: var=foo['rc']
+
+    - name: Copy test config file.
+      copy:
+        src: files/test.conf
+        dest: "{{ apache_config_dir }}/test.conf"
+      notify: restart apache
