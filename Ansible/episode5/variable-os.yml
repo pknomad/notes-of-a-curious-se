@@ -1,0 +1,36 @@
+---
+- name: Install Apache
+  hosts: all
+  become: true
+
+  # Variable for CentOS
+  # vars:
+  #   apache_package: httpd
+  #   apache_service: httpd
+  #   apache_config_dir: /etc/httpd/conf.d
+
+  # Variable for Ubuntu
+  # vars:
+  #   apache_package: apache2
+  #   apache_service: apache2
+  #   apache_config_dir: /etc/apache2/sites-enabled
+
+  handlers:
+    - name: restart apache
+      service:
+        name: "{{ apache_service }}"
+        state: restarted
+
+  # using for item loop
+  pre_tasks:
+    - name: Load variable files.
+      include_vars: "{{ item }}"
+      with_first_found:
+        - "vars/apache_{{ ansible_os_family }}.yml"
+        - "vars/apache_default.yml"
+
+  tasks:
+    - name: Ensure Apache is installed.
+      package:
+        name: "{{ apache_package }}"
+        state: present
