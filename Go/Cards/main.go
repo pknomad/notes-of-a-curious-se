@@ -5,10 +5,12 @@ import (
 )
 
 func main() {
-    // var card string = "Ace of Spades"
-    // card := "Ace of Spaces" # Equivalent of line 8
-    card := newCard()
-    fmt.Println(card)
+    cards := []string{newCard(), newCard()}
+    cards = append(cards, "Six of Spades")
+
+    for i, cards := range cards {
+        fmt.Println(i, cards)
+    }
 }
 
 func newCard() string {
