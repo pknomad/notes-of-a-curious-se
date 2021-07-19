@@ -4,6 +4,7 @@ import (
     "fmt"
 )
 
+
 func main() {
     cards := []string{newCard(), newCard()}
     cards = append(cards, "Six of Spades")
