@@ -1,10 +1,6 @@
 # IntelliJ configuration files and modules
 Self-Development.iml
 /.idea
-/Go/.idea/.gitignore
-/Go/.idea/Go.iml
-/Go/.idea/modules.xml
-/Go/.idea/vcs.xml
 
 
 
