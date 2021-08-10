@@ -2,5 +2,5 @@
 Self-Development.iml
 /.idea
 /Go/.idea
-
-
+/Shell/Vagrantfile
+/Shell/.vagrant/
