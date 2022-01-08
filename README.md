@@ -1,4 +1,4 @@
-# Notes of a curious System Engineer
+# Notes of a curious Systems Engineer
 
 > *"If you love it, you'll teach yourself. If you don't love it, others teach you".*
 >
