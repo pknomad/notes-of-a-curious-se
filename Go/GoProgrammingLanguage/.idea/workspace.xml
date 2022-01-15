@@ -4,74 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fd502a02-bf90-47b2-bae8-1dc7251ca99a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Ansible/Ansible.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode1/basic-ntp-centos7.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode3/basic-httpd-centos.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode3/httpd-vhosts.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode3/httpd.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode4/ubuntu-solr.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode4/vars.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode5/files/test.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode5/handlers.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode5/variable-os.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode5/vars/apache_default.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode5/vars/apache_redhat.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6a/vars/api_key.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6a/vault.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6b/app.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6b/files/test.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6b/handlers/apache.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6b/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6b/tasks/apache.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6b/vars/apache_default.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6b/vars/apache_redhat.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6c/app/app.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6c/app/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6c/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6c/roles/nodejs/meta/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6c/roles/nodejs/tasks/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode6d/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7a/ansible.cfg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7a/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7a/requirements.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7b/debug.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7c/fail-assert.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7d/.yamllint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7d/yamllint.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7e/date.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7e/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7f/ansible-lint.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/.travis.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/.yamllint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/defaults/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/handlers/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/meta/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/molecule/default/INSTALL.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/molecule/default/converge.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/molecule/default/create.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/molecule/default/destroy.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/molecule/default/molecule.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/molecule/default/verify.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/tasks/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/tests/inventory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/tests/test.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode7g/myrole/vars/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/.github/workflows/ci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/.yamllint" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/molecule/default/INSTALL.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/molecule/default/converge.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/molecule/default/create.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/molecule/default/destroy.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/molecule/default/molecule.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/molecule/default/verify.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode8/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Ansible/episode9/main.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="fd502a02-bf90-47b2-bae8-1dc7251ca99a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

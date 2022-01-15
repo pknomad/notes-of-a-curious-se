@@ -1,0 +1,14 @@
+---
+- name: Install and Run chrony
+  hosts: example
+  tasks:
+  - name: Ensure chrony is installed.
+    yum:
+      name: chrony
+      state: installed
+
+  - name: Ensure chrony is running.
+    service:
+      name: chronyd
+      state: started
+      enabled: true

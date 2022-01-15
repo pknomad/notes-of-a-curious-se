@@ -1,0 +1,10 @@
+Run an ad-hoc command on ansible node
+
+```ansible target -m ping -u user
+ansible 34.125.199.69 -m ping -u ansible-user```
+
+-m flag indicates module
+
+```ansible target -a "free -m" -u user
+ansible 34.125.199.69 -a "free -m" -u ansible-user```
+-a flag indicates module arguments
