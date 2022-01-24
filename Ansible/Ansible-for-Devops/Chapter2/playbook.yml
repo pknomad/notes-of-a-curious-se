@@ -3,7 +3,7 @@
   hosts: example
   tasks:
   - name: Ensure chrony is installed.
-    yum:
+    apt:
       name: chrony
       state: installed
 
