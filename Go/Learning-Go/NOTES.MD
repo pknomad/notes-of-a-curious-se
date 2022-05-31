@@ -175,3 +175,12 @@ x, y := 10, "hello"
 Const type
 Declaring an immutable value in Go is achieved through const.
 
+Unused variables
+Compiler and go vet do not catch unused assignmens, golangci-lint detects it. Go compiler won't stop you from creating unread package-level variables. This is one of the reason why you should avoid creating package-level variables.
+
+Variable Naming Convention
+
+Go uses camelcase (camelCase) instead of snakecase (snake_case) for variable names 
+_ is a special identifier in Go
+* Go uses the first letter in the name of a package-level declration to determine if the item is accessible outside the package.
+
