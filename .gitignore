@@ -1,14 +1,2 @@
-# IntelliJ configuration files and modules
-Self-Development.iml
-/.idea
-/Go/.idea
-/Shell/Vagrantfile
-/Shell/.vagrant/
-
-/Terraform/Terraform-Docker/.terraform/
-/Terraform/Terraform-Docker/.terraform.lock.hcl
-
-/Terraform/Terraform-Up-And-Running/.terraform/
-/Terraform/Terraform-Up-And-Running/.terraform.lock.hcl
-/Terraform/Terraform-Up-And-Running/terraform.tfstate
-/Terraform/Terraform-Up-And-Running/terraform.tfstate.backup
+# VS CODE
+.vscode
