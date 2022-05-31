@@ -10,8 +10,8 @@ func main() {
 	pi := 3
 	a := "hello" // Unicode /U+FF41
 
-	fmt.println(_0)
-	fmt.println(_l)
+	fmt.Println(_0)
+	fmt.Println(_l)
 	fmt.Println(pi)
-	fmt.println(a)
+	fmt.Println(a)
 }
