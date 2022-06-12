@@ -184,3 +184,7 @@ Go uses camelcase (camelCase) instead of snakecase (snake_case) for variable nam
 _ is a special identifier in Go
 * Go uses the first letter in the name of a package-level declration to determine if the item is accessible outside the package.
 
+## Chapter 3 Arrays
+
+Go has arrays but are rarely used in Go.
+
